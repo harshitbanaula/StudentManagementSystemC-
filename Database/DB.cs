@@ -9,7 +9,7 @@ namespace StudentManagementSystem.Database
 {
     public static class DB
     {
-        private static readonly string connectionString = "Server=.\\SQLEXPRESS;Database=StudentDatabase;Trusted_Connection=True;Encrypt= False;";
+        private static readonly string connectionString = "Your Connection String here";
 
         public static SqlConnection GetConnection() {
             return new SqlConnection(connectionString);
